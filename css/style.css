@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+/* template_start */
+.template_inner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.temp_lef{
+    width: 20%;
+    height: 100%;
+    background-color: #4b5056;
+    position: fixed;
+}
+.lef_logo{
+    background-color: #fff;
+    margin: 40px auto;
+}
+.lef_logo img{
+    max-width: 100%;
+}
+.menu{
+    text-align: center;
+}
+.menu li a{
+    font-size: 14px;
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: #393e42;
+    color: #3ea8e6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.menu li a::after, .menu li:nth-child(2) a::after, .menu li:nth-child(3) a::after, .menu li:nth-child(4) a::after, .menu li:nth-child(5) a::after{
+    content: "";
+    width: 4px;
+    height: 56px;
+    background-color: #3ea8e6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.menu li:nth-child(2) a::after{
+    background-color: #eab044;
+}
+.menu li:nth-child(3) a::after{
+    background-color: #9351e7;
+}
+.menu li:nth-child(4) a::after{
+    background-color: #3ae392;
+}
+.menu li:nth-child(5) a::after{
+    background-color: #e13b7b;
+}
+.menu li:nth-child(2) a:hover{
+    color: #eab044;
+}
+.menu li:nth-child(3) a:hover{
+    color: #9351e7;
+}
+.menu li:nth-child(4) a:hover{
+    color: #3ae392;
+}
+.menu li:nth-child(5) a:hover{
+    color: #e13b7b;
+}
+.temp_rig{
+    width: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.banner{
+    background: url('../images/banner.jpg') no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+/* template_end */
