@@ -16,16 +16,13 @@ body{
 }
 /* template_start */
 .template_inner{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
 }
 .temp_lef{
     width: 20%;
     height: 100%;
     background-color: #4b5056;
     position: fixed;
+    margin: 0 auto;
 }
 .lef_logo{
     background-color: #fff;
@@ -85,8 +82,12 @@ body{
 .temp_rig{
     width: 80%;
     background-color: #fff;
-    margin-left: 273px;
+    margin: 0 auto;
+    position: relative;
+    left: 10%;
 }
+
+/* banner_start */
 .banner{
     background: url('../images/banner.jpg') no-repeat center;
     background-size: cover;
@@ -111,7 +112,7 @@ body{
     letter-spacing: 1px;
     margin-bottom: 26px;
 }
-.banner_inner a{
+.banner_link a{
     width: 40%;
     font-size: 14px;
     font-weight: 600;
@@ -122,4 +123,20 @@ body{
     border-bottom: 4px solid #1a6e9c;
     margin: 0 auto;
 }
+/* .circle ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.circle li a{
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 2px solid #000;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    transform: translate(-50%,-50%);
+} */
+/* banner_end */
 /* template_end */
