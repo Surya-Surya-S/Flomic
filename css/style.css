@@ -142,7 +142,7 @@ body{
 
 /* welcome_start */
 .welcome{
-    padding: 50px 0;
+    padding: 50px 0 40px;
 }
 .welcome_top{
     width: 80%;
@@ -172,6 +172,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    overflow: hidden;
     margin: 0 auto;
 }
 .welcome_inner{
@@ -215,8 +216,49 @@ body{
 }
 .welcome_para p{
     font-size: 14px;
-    font-weight: 4~00;
+    font-weight: 400;
     text-transform: capitalize;
 }
 /* welcome_end */
+
+/* team_start */
+.team{
+    padding: 60px 0 0;
+}
+.team_inner{
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.team_inner h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: #eab044;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.team_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 3px solid #7c1ee4;
+    padding: 0 0 50px;
+}
+.team_lef, .team_rig{
+    width: 50%;
+}
+.team_img img{
+    max-width: 100%;
+}
+.team_img{
+    width: 70%;
+    margin-left: auto;
+}
+.team_lef p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #a9a0b1;
+}
+/* team_end */
 /* template_end */
