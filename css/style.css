@@ -32,7 +32,7 @@ body{
     margin: 40px auto;
 }
 .lef_logo img{
-    max-width: 100%;
+    width: 100%;
 }
 .menu{
     text-align: center;
@@ -83,14 +83,43 @@ body{
     color: #e13b7b;
 }
 .temp_rig{
-    width: 100%;
+    width: 80%;
     background-color: #fff;
-    margin: 0 auto;
+    margin-left: 273px;
 }
 .banner{
     background: url('../images/banner.jpg') no-repeat center;
     background-size: cover;
     padding: 100px 0;
 }
-
+.banner_inner{
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto;
+}
+.banner_inner h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 26px;
+}
+.banner_inner p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 26px;
+}
+.banner_inner a{
+    width: 40%;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #3ea8e6;
+    color: #fff;
+    padding: 10px 16px;
+    border-bottom: 4px solid #1a6e9c;
+    margin: 0 auto;
+}
 /* template_end */
