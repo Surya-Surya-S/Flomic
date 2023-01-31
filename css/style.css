@@ -260,5 +260,149 @@ body{
     font-weight: normal;
     color: #a9a0b1;
 }
+.services a{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #984cea;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+}
 /* team_end */
+
+/* services_start */
+.services_inner, .services_para{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    margin: 0 auto;
+}
+.services_top{
+    width: 33.3333333%;
+    margin: 0 auto;
+    text-align: center;
+}
+.services_link{
+    width: 90%;
+    background-color: #984cea;
+    margin: 0 auto 80px;
+}
+.thunder{
+    background: url('../images/cowsprite.png') no-repeat -120px -154px;
+	width: 16px;
+	height: 28px;
+}
+.lap{
+    background: url('../images/cowsprite.png') no-repeat -114px -209px;
+	width: 28px;
+	height: 18px;
+}
+.edit{
+    background: url('../images/cowsprite.png') no-repeat -114px -254px;
+	width: 28px;
+	height: 28px;
+}
+.services_para, .services_rig{
+    display: flex;
+    flex-direction: column;
+}
+.services_para h2{
+    font-size: 20px;
+    font-weight: 300;
+    color: #7c1ee4;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.services_para p{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #a9a0b1;
+}
+.services_lef {
+    width: 70%;
+    overflow: hidden;
+}
+.services_rig{
+    width: 30%;
+    overflow: hidden;
+}
+.services_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 3px solid #1aca82;
+    padding-bottom: 50px;
+}
+.services_rig{
+    align-items: flex-end;
+}
+.sc_rig1{
+    width: 200px;
+    height: 20px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.sc_rig1::before{
+    content: "";
+    width: 180px;
+    height: 20px;
+    background-color: #7c1ee4;
+    position: absolute;
+    border-radius: 4px;
+}
+.sc_rig1 h4{
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    padding-left: 20px;
+}
+.sc_rig1:nth-child(2):before{
+    width: 160px;
+}
+.sc_rig1:nth-child(3):before{
+    width: 140px;
+}
+/* services_end */
+
+/* portfolio_start */
+.portfolio{
+
+}
+.portfolio_link{
+    width: 80%;
+    margin: 0 auto 50px;
+}
+.portfolio_link a{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #3ae392;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+}
+.portfolio_inner{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+.portfolios{
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+.portfolios img{
+    max-width: 100%;
+}
+/* portfolio_end */
 /* template_end */
