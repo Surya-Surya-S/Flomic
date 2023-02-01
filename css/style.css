@@ -377,7 +377,7 @@ body{
 }
 .portfolio_link, .portfolio_link2{
     width: 80%;
-    margin: 0 auto 50px;
+    margin: 0 auto 80px;
 }
 .portfolio_link a, .portfolio_link2 a{
     font-size: 14px;
@@ -395,7 +395,6 @@ body{
     grid-template-columns: auto auto auto;
     text-align: center;
     margin: 0 auto 20px;
-    position: relative;
 }
 .portfolios{
     width: 90%;
@@ -409,20 +408,36 @@ body{
     width: fit-content;
 }
 .portfolios h2{
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 100;
     text-transform: uppercase;
     color: #3ae392;
     margin-top: 10px;
 }
-.portfolio_inner::after{
-    content: "";
-    width: 100%;
-    left: 50%;
-    bottom: -20%;
-    transform: translate(-50%,-50%);
-    border-bottom: 3px solid #cb1d62;
-    position: absolute;
+.line{
+    width: 80%;
+    border-bottom: 3px solid #cc1d62;
+    margin: 0 auto;
 }
 /* portfolio_end */
+
+/* contact_start */
+.contact{
+
+}
+.contact_link{
+    width: 80%;
+    margin: 0 auto 50px;
+}
+.contact_link a{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #e3387c;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+}
+/* contact_end */
 /* template_end */
