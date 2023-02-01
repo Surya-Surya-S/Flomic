@@ -442,7 +442,7 @@ body{
 .contact_inner{
     width: 80%;
     position: relative;
-    margin: 0 auto;
+    margin: 0 auto 40px;
 }
 .map_overlay{
     width: 100%;
@@ -547,6 +547,62 @@ body{
 .minus{
     top: -86px;
     box-shadow: 1px 1px 0 #6a6a6a;
+}
+.form_content{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.form_inner{
+    width: 33.333333%;
+    text-align: left;
+    margin: 0 auto 20px;
+}
+form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+form:nth-child(1), form:nth-child(4){
+    margin-left: 0;
+}
+form:nth-child(3){
+    margin-left: 0;
+}
+.form_inner:nth-child(4){
+    width: 100%;
+}
+label{
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: capitalize;
+    color: #6a6a6a;
+}
+input{
+    outline: none;
+    text-align: left;
+    border: 1px solid #dadadc;
+    border-radius: 2px;
+    padding: 8px;
+}
+textarea{
+    border: 1px solid #dadadc;
+    outline: none;
+    margin-bottom: 10px;
+}
+.submit a{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    background-color: #e3387c;
+    border-bottom: 3px solid #a0154c;
+    color: #fff;
+    padding: 14px 20px;
 }
 /* contact_end */
 /* template_end */
