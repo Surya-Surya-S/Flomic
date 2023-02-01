@@ -512,16 +512,16 @@ body{
     margin: 0 auto;
 }
 .plus_img{
-    background: url('../images/cowsprite.png') no-repeat -114px -364px;
-	width: 28px;
-	height: 28px;
+    background: url('../images/cowsprite.png') no-repeat -488px -521px;
+	width: 17px;
+	height: 18px;
     display: inline-block;
     margin-top: 8px;
 }
 .minus_img{
-    background: url('../images/cowsprite.png') no-repeat -115px -415px;
-	width: 28px;
-	height: 6px;
+    background: url('../images/cowsprite.png') no-repeat -488px -555px;
+	width: 18px;
+	height: 4px;
     display: inline-block;
     margin-bottom: 2px;
 }
@@ -628,27 +628,27 @@ textarea{
     display: inline-block;
 }
 .twit{
-    background: url('../images/cowsprite.png') no-repeat -328px -226px;
-	width: 28px;
-	height: 24px;
+    background: url('../images/cowsprite.png') no-repeat -489px -340px;
+	width: 19px;
+	height: 16px; 
     display: inline-block;
 }
 .wheel{
-    background: url('../images/cowsprite.png') no-repeat -332px -284px;
-	width: 28px;
-	height: 28px;
+    background: url('../images/cowsprite.png') no-repeat -488px -381px;
+	width: 21px;
+	height: 21px;
     display: inline-block;
 }
 .linked{
-    background: url('../images/cowsprite.png') no-repeat -334px -334px;
-	width: 28px;
-	height: 28px;
+    background: url('../images/cowsprite.png') no-repeat -488px -416px;
+	width: 23px;
+	height: 23px;
     display: inline-block;
 }
 .wifi{
-    background: url('../images/cowsprite.png') no-repeat -338px -392px;
-	width: 22px;
-	height: 22px;
+    background: url('../images/cowsprite.png') no-repeat -488px -467px;
+	width: 19px;
+	height: 19px;
     display: inline-block;
 }
 .ft_link{
