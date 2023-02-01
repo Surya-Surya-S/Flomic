@@ -615,7 +615,7 @@ textarea{
     padding: 30px 0;
 }
 .ft_inner{
-    width: 22%;
+    width: 28%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -661,7 +661,7 @@ textarea{
     padding: 20px 0;
 }
 .footer_bottom p{
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 400;
     text-transform: capitalize;
     text-align: center;
