@@ -375,11 +375,11 @@ body{
 .portfolio{
 
 }
-.portfolio_link{
+.portfolio_link, .portfolio_link2{
     width: 80%;
     margin: 0 auto 50px;
 }
-.portfolio_link a{
+.portfolio_link a, .portfolio_link2 a{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -394,15 +394,35 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
     text-align: center;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
+    position: relative;
 }
 .portfolios{
     width: 90%;
     overflow: hidden;
-    margin: 0 auto 20px;
+    margin: 0 auto 26px;
 }
 .portfolios img{
     max-width: 100%;
+}
+.portfolio_link2 {
+    width: fit-content;
+}
+.portfolios h2{
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #3ae392;
+    margin-top: 10px;
+}
+.portfolio_inner::after{
+    content: "";
+    width: 100%;
+    left: 50%;
+    bottom: -20%;
+    transform: translate(-50%,-50%);
+    border-bottom: 3px solid #cb1d62;
+    position: absolute;
 }
 /* portfolio_end */
 /* template_end */
