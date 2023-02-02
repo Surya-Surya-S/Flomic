@@ -2,6 +2,9 @@
 .menu li a {
     font-size: 10px;
 }
+.menu li a::after{
+    height: 56px;
+}
 .banner_inner {
     width: 72%;
 }
@@ -23,8 +26,8 @@
     font-size: 24px;
 }
 .welcome_top p{
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 10px;
+    line-height: 20px;
 } 
 .welcome_inner {
     width: 70%;
