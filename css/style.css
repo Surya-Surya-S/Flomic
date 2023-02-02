@@ -15,8 +15,6 @@ body{
     font-family: 'Hind Siliguri', sans-serif;
 }
 /* template_start */
-.template_inner{
-}
 .temp_lef{
     width: 20%;
     height: 100%;
@@ -86,7 +84,6 @@ body{
     position: relative;
     left: 10%;
 }
-
 /* banner_start */
 .banner{
     background: url('../images/banner.jpg') no-repeat center;
@@ -123,21 +120,6 @@ body{
     border-bottom: 4px solid #1a6e9c;
     margin: 0 auto;
 }
-/* .banner_inner ul{
-    display: flex;
-    flex-wrap: wrap;
-}
-.banner_inner li a{
-    width: 12px;
-    height: 12px;
-    border-radius: 100%;
-    background-color: #fff;
-    border: 2px solid #000;
-    display: inline-block;
-    top: -30%;
-    right: 10%;
-    position: absolute;
-} */
 /* banner_end */
 
 /* welcome_start */
@@ -399,9 +381,6 @@ body{
 /* services_end */
 
 /* portfolio_start */
-.portfolio{
-
-}
 .portfolio_link, .portfolio_link2{
     width: 80%;
     margin: 0 auto 80px;
@@ -449,9 +428,6 @@ body{
 /* portfolio_end */
 
 /* contact_start */
-.contact{
-
-}
 .contact_link{
     width: 80%;
     margin: 0 auto 50px;
