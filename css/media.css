@@ -5,6 +5,14 @@
 .banner_inner h2 {
     font-size: 32px;
 }
+.banner_inner p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.banner_link a {
+    font-size: 12px;
+    padding: 6px 12px;
+}
 .welcome {
     padding: 50px 0 0;
 }
@@ -15,24 +23,39 @@
     font-size: 12px;
     line-height: 22px;
 } 
+.welcome_inner {
+    width: 70%;
+}
+.welcome_inner:nth-child(1), .welcome_inner:nth-child(3) {
+    margin-left: auto;
+    margin-right: auto;
+}
+.welcome_para {
+    margin-bottom: 40px;
+}
 .welcome_para h4 {
-    font-size: 11px;
-    line-height: 10px;
+    font-size: 16px;
+    line-height: 26px;
 }
 .welcome_para p {
-    font-size: 10px;
+    font-size: 14px;
 }
 .team_inner h2, .services_para h2{
     font-size: 16px;
 }
 .team_lef, .team_rig, .services_lef, .services_rig{
-    width: 84%;
+    width: 94%;
     margin: 0 auto;
 }
 .services_para p, .team_lef p {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 13px;
+    line-height: 23px;
     margin-bottom: 20px;
+}
+.services_link h4 {
+    width: 0;
+    font-size: 11px;
+    line-height: 18px;
 }
 .team_img {
     margin: 20px auto;
@@ -44,11 +67,17 @@
     margin-bottom: 40px;
 }
 .services_top{
-    width: 50%;
+    width: 66%;
     margin: 0 auto;
 }
 .services_top:nth-child(1), .services_top:nth-child(3){
     margin: 0 auto;
+}
+.services_link h4:nth-child(1){
+    width: 64%;
+}
+.services_link h4:nth-child(2) {
+    width: 68%;
 }
 .services_link{
     margin-bottom: 20px;
@@ -58,6 +87,9 @@
 }
 .services_content {
     padding-bottom: 30px;
+}
+.portfolio_inner {
+    grid-template-columns: auto auto;
 }
 .portfolio_link{
     margin-top: -40px;
@@ -71,27 +103,40 @@
 .about, .contact_link {
     margin-bottom: 60px;
 }
+.contact_inner{
+    width: 92%;
+}
 .map_overlay {
     border: 4px solid #f8f8fa;
 }
 .map_inner {
-    width: 54%;
-    left: 18%;
+    width: 50%;
+    left: 20%;
     top: 6%;
 }
 .map_inner h2 {
-    font-size: 10px;
+    font-size: 8px;
 }
 .map_content p, .map_inner h4 {
-    font-size: 8px;
+    font-size: 5px;
 }
 .map_content a {
-    width: 70%;
-    font-size: 8px;
+    font-size: 6px;
+    border: 1px solid #d8d9dd;
+    border-radius: 2px;
     padding: 3px 0;
 }
-.minus, .plus, .square {
+.square{
+    display: none;
+}
+.minus, .plus{
     width: 10%;
+}
+.plus{
+    top: -42px;
+}
+.minus {
+    margin-top: 18px;
 }
 .values {
     width: 66%;
@@ -106,7 +151,13 @@
 .submit {
     margin-bottom: 60px;
 }
+.submit a {
+    font-size: 12px;
+}
 .ft_inner {
-    width: 50%;
+    width: 60%;
+}
+.footer_bottom p {
+    font-size: 10px;
 }
 }

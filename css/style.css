@@ -27,7 +27,7 @@ body{
     margin: 40px auto;
 }
 .lef_logo img{
-    width: 100%;
+    max-width: 100%;
 }
 .menu{
     text-align: center;
@@ -286,19 +286,19 @@ body{
     background: url('../images/cowsprite.png') no-repeat -120px -154px;
 	width: 16px;
 	height: 28px;
-    margin-inline: auto;
+    margin: 0 auto;
 }
 .lap{
     background: url('../images/cowsprite.png') no-repeat -114px -209px;
 	width: 28px;
 	height: 18px;
-    margin-inline: auto;
+    margin: 0 auto;
 }
 .edit{
     background: url('../images/cowsprite.png') no-repeat -114px -254px;
 	width: 28px;
 	height: 28px;
-    margin-inline: auto;
+    margin: 0 auto;
 }
 .services_link h4 {
     width: 66%;
