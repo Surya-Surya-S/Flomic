@@ -269,6 +269,9 @@ body{
     color: #fff;
     padding: 10px;
 }
+.services {
+    margin-bottom: 40px;
+}
 /* team_end */
 
 /* services_start */
@@ -280,29 +283,53 @@ body{
     margin: 0 auto;
 }
 .services_top{
-    width: 33.3333333%;
+    width: 94%;
+    overflow: hidden;
     margin: 0 auto;
-    text-align: center;
+}
+.services_top:nth-child(1){
+    margin-left: 0;
+}
+.services_top:nth-child(3){
+    margin-right: 0;
 }
 .services_link{
-    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
     background-color: #984cea;
-    margin: 0 auto 80px;
+    margin-bottom: 80px;
 }
 .thunder{
     background: url('../images/cowsprite.png') no-repeat -120px -154px;
 	width: 16px;
 	height: 28px;
+    margin-inline: auto;
 }
 .lap{
     background: url('../images/cowsprite.png') no-repeat -114px -209px;
 	width: 28px;
 	height: 18px;
+    margin-inline: auto;
 }
 .edit{
     background: url('../images/cowsprite.png') no-repeat -114px -254px;
 	width: 28px;
 	height: 28px;
+    margin-inline: auto;
+}
+.services_link h4 {
+    width: 66%;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 12px auto;
+}
+.services_link h4:nth-child(2){
+    width: 64%;
 }
 .services_para, .services_rig{
     display: flex;
@@ -602,7 +629,7 @@ textarea{
     background-color: #e3387c;
     border-bottom: 3px solid #a0154c;
     color: #fff;
-    padding: 14px 20px;
+    padding: 6px 10px;
 }
 .submit{
     margin-bottom: 100px;
