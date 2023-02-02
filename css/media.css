@@ -2,6 +2,9 @@
 .menu li a {
     font-size: 10px;
 }
+.menu li a::after, .menu li:nth-child(2) a::after, .menu li:nth-child(3) a::after, .menu li:nth-child(4) a::after, .menu li:nth-child(5) a::after {
+    height: 68px;
+}
 .banner_inner {
     width: 72%;
 }
