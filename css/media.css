@@ -1,7 +1,7 @@
 @media only screen and (max-width : 565px) {
 .menu li a {
-    font-size: 12px;
-    padding: 12px;
+    font-size: 10px;
+    padding: 10px;
 }
 .banner_inner {
     width: 72%;
