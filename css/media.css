@@ -151,6 +151,12 @@
 .form_inner {
     width: auto;
 }
+.form_content form:nth-child(1){
+    margin-left: auto;
+}
+.form_inner:nth-child(3) form{
+    margin: 0 auto;
+}
 .form_inner:nth-child(4), .lef_logo img{
     margin: 14px auto;
 }

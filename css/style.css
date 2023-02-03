@@ -570,14 +570,17 @@ form{
     flex-direction: column;
     margin: 0 auto;
 }
-form:nth-child(1), form:nth-child(4){
-    margin-left: 0;
-}
-form:nth-child(3){
+.form_content form:nth-child(1), form:nth-child(4){
     margin-left: 0;
 }
 .form_inner:nth-child(4){
     width: 100%;
+}
+.form_inner:nth-child(2) form{
+    margin: 0 auto;
+}
+.form_inner:nth-child(3) form{
+    margin: 0 1px 0 auto;
 }
 label{
     font-size: 16px;
@@ -586,11 +589,13 @@ label{
     color: #6a6a6a;
 }
 input{
+    width: 100%;
     outline: none;
     text-align: left;
     border: 1px solid #dadadc;
     border-radius: 2px;
     padding: 8px;
+    margin: 0 auto;
 }
 textarea{
     border: 1px solid #dadadc;
@@ -618,7 +623,7 @@ textarea{
     padding: 30px 0;
 }
 .ft_inner{
-    width: 28%;
+    width: 20%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
