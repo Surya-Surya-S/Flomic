@@ -85,7 +85,7 @@ body{
     left: 10%;
 }
 /* banner_start */
-.banner{
+#banner{
     background: url('../images/banner.jpg') no-repeat center;
     background-size: cover;
     padding: 100px 0;
@@ -162,11 +162,11 @@ body{
     text-align: center;
     margin: 0 auto;
 }
-.about{
+#about{
     width: 80%;
     margin: 0 auto 50px;
 }
-.about a{
+#about a{
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -257,6 +257,9 @@ body{
 /* team_end */
 
 /* services_start */
+#services {
+    margin-bottom: 40px;
+}
 .services_inner, .services_para{
     width: 80%;
     display: grid;

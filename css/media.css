@@ -91,7 +91,7 @@
     margin-bottom: 40px;
 }
 .services_top{
-    width: 54%;
+    width: 76%;
     margin: 0 auto;
 }
 .services_top:nth-child(1), .services_top:nth-child(3){
@@ -194,7 +194,7 @@
     font-size: 12px;
 }
 .ft_inner {
-    width: 44%;
+    width: 52%;
 }
 .fb{
     display: none;
