@@ -349,6 +349,7 @@ body{
     margin-bottom: 20px;
 }
 .services_para p{
+    width: 90%;
     font-size: 14px;
     line-height: 24px;
     font-weight: normal;
