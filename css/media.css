@@ -59,9 +59,27 @@
     margin-bottom: 20px;
 }
 .services_link h4 {
-    width: 0;
+    width: 60%;
     font-size: 11px;
     line-height: 18px;
+}
+.thunder{
+    display: none;
+}
+.lap{
+    display: none;
+}
+.edit{
+    display: none;
+}
+.mthunder{
+    display: block;
+}
+.mlap{
+    display: block;
+}
+.medit{
+    display: block;
 }
 .team_img {
     margin: 20px auto;
@@ -73,7 +91,7 @@
     margin-bottom: 40px;
 }
 .services_top{
-    width: 66%;
+    width: 54%;
     margin: 0 auto;
 }
 .services_top:nth-child(1), .services_top:nth-child(3){
@@ -127,13 +145,22 @@
     font-size: 5px;
 }
 .map_content a {
+    width: 50%;
     font-size: 6px;
     border: 1px solid #d8d9dd;
     border-radius: 2px;
     padding: 3px 0;
+    margin-left: 50%;
 }
 .square{
+    width: 8%;
+    padding: 4px 0 0;
+}
+.square_img{
     display: none;
+}
+.msquare_img{
+    display: inline-block;
 }
 .minus, .plus{
     width: 10%;
@@ -167,7 +194,37 @@
     font-size: 12px;
 }
 .ft_inner {
-    width: 60%;
+    width: 44%;
+}
+.fb{
+    display: none;
+}
+.mfb{
+    display: inline-block;
+}
+.twit{
+    display: none;
+}
+.mtwit{
+    display: inline-block;
+}
+.wheel{
+    display: none;
+}
+.mwheel{
+    display: inline-block;
+}
+.linked{
+    display: none;
+}
+.mlinked{
+    display: inline-block;
+}
+.wifi{
+    display: none;
+}
+.mwifi{
+    display: inline-block;
 }
 .footer_bottom p {
     font-size: 10px;

@@ -265,7 +265,7 @@ body{
     margin: 0 auto;
 }
 .services_top{
-    width: 94%;
+    width: 90%;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -286,19 +286,40 @@ body{
     background: url('../images/cowsprite.png') no-repeat -120px -154px;
 	width: 16px;
 	height: 28px;
-    margin: 0 auto;
+    margin-left: 78%;
+}
+.mthunder{
+    background: url('../images/cowsprite.png') no-repeat -213px -154px;
+	width: 12px;
+	height: 21px;
+    margin-left: 70%;
+    display: none;
 }
 .lap{
     background: url('../images/cowsprite.png') no-repeat -114px -209px;
 	width: 28px;
 	height: 18px;
-    margin: 0 auto;
+    margin-left: 60%;
+}
+.mlap{
+    background: url('../images/cowsprite.png') no-repeat -210px -210px;
+	width: 22px;
+	height: 14px;
+    margin-left: 64%;
+    display: none;
 }
 .edit{
     background: url('../images/cowsprite.png') no-repeat -114px -254px;
 	width: 28px;
 	height: 28px;
-    margin: 0 auto;
+    margin-left: 80%;
+}
+.medit{
+    background: url('../images/cowsprite.png') no-repeat -210px -256px;
+	width: 22px;
+	height: 22px;
+    display: none;
+    margin-left: 70%;
 }
 .services_link h4 {
     width: 66%;
@@ -383,7 +404,10 @@ body{
 /* portfolio_start */
 .portfolio_link, .portfolio_link2{
     width: 80%;
-    margin: 0 auto 80px;
+    margin: -40px auto 80px;
+}
+.portfolio_link2{
+    margin-top: 0;
 }
 .portfolio_link a, .portfolio_link2 a{
     font-size: 14px;
@@ -503,7 +527,7 @@ body{
     border-radius: 4px;
     color: #598ad7;
     padding: 2px 0;
-    margin: 0 auto;
+    margin-left: 30%;
 }
 .square, .plus, .minus{
     width: 5%;
@@ -534,6 +558,13 @@ body{
 	height: 28px;
     display: inline-block;
     margin-top: 6px;
+}
+.msquare_img{
+    background: url('../images/cowsprite.png') no-repeat -212px -311px;
+	width: 18px;
+	height: 18px;
+    display: none;
+    margin-top: 2px;
 }
 .values{
     width: 10%;
@@ -635,11 +666,23 @@ textarea{
 	height: 22px;
     display: inline-block;
 }
+.mfb{
+    background: url('../images/cowsprite.png') no-repeat -625px -182px;
+	width: 9px;
+	height: 17px;
+    display: none;
+}
 .twit{
     background: url('../images/cowsprite.png') no-repeat -489px -340px;
 	width: 19px;
 	height: 16px; 
     display: inline-block;
+}
+.mtwit{
+    background: url('../images/cowsprite.png') no-repeat -623px -220px;
+	width: 16px;
+	height: 14px;
+    display: none;
 }
 .wheel{
     background: url('../images/cowsprite.png') no-repeat -488px -381px;
@@ -647,17 +690,35 @@ textarea{
 	height: 21px;
     display: inline-block;
 }
+.mwheel{
+    background: url('../images/cowsprite.png') no-repeat -623px -253px;
+	width: 15px;
+	height: 15px;
+    display: none;
+}
 .linked{
     background: url('../images/cowsprite.png') no-repeat -488px -416px;
 	width: 23px;
 	height: 23px;
     display: inline-block;
 }
+.mlinked{
+    background: url('../images/cowsprite.png') no-repeat -622px -282px;
+	width: 17px;
+	height: 17px;
+    display: none;
+}
 .wifi{
     background: url('../images/cowsprite.png') no-repeat -488px -467px;
 	width: 19px;
 	height: 19px;
     display: inline-block;
+}
+.mwifi{
+    background: url('../images/cowsprite.png') no-repeat -622px -322px;
+	width: 16px;
+	height: 16px;
+    display: none;
 }
 .ft_link{
     background-color: #31363a;
