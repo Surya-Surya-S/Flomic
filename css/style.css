@@ -268,7 +268,7 @@ body{
     margin: 0 auto;
 }
 .services_top{
-    width: 100%;
+    width: 86%;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -289,7 +289,7 @@ body{
     background: url('../images/cowsprite.png') no-repeat -120px -154px;
 	width: 16px;
 	height: 28px;
-    margin-left: 78%;
+    margin-left: 40%;
 }
 .mthunder{
     background: url('../images/cowsprite.png') no-repeat -213px -154px;
@@ -302,7 +302,7 @@ body{
     background: url('../images/cowsprite.png') no-repeat -114px -209px;
 	width: 28px;
 	height: 18px;
-    margin-left: 60%;
+    margin-left: 40%;
 }
 .mlap{
     background: url('../images/cowsprite.png') no-repeat -210px -210px;
@@ -315,17 +315,17 @@ body{
     background: url('../images/cowsprite.png') no-repeat -114px -254px;
 	width: 28px;
 	height: 28px;
-    margin-left: 80%;
+    margin-left: 40%;
 }
 .medit{
     background: url('../images/cowsprite.png') no-repeat -210px -256px;
 	width: 22px;
 	height: 22px;
     display: none;
-    margin-left: 70%;
+    margin-left: 40%;
 }
 .services_link h4 {
-    width: 64%;
+    width: 76%;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
