@@ -340,6 +340,7 @@ body{
 .services_para, .services_rig{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .services_para h2{
     font-size: 20px;
@@ -355,12 +356,10 @@ body{
     color: #a9a0b1;
 }
 .services_lef {
-    width: 64%;
-    overflow: hidden;
+    width: 68%;
 }
 .services_rig{
     width: 30%;
-    overflow: hidden;
 }
 .services_content{
     display: flex;
