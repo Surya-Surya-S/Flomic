@@ -268,7 +268,7 @@ body{
     margin: 0 auto;
 }
 .services_top{
-    width: 100%;
+    width: 84%;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -325,7 +325,7 @@ body{
     margin-left: 70%;
 }
 .services_link h4 {
-    width: 62%;
+    width: 68%;
     font-size: 16px;
     line-height: 20px;
     font-weight: 500;
