@@ -295,7 +295,7 @@ body{
     background: url('../images/cowsprite.png') no-repeat -213px -154px;
 	width: 12px;
 	height: 21px;
-    margin-left: 70%;
+    margin-left: 40%;
     display: none;
 }
 .lap{
@@ -308,7 +308,7 @@ body{
     background: url('../images/cowsprite.png') no-repeat -210px -210px;
 	width: 22px;
 	height: 14px;
-    margin-left: 64%;
+    margin-left: 30%;
     display: none;
 }
 .edit{
@@ -322,7 +322,7 @@ body{
 	width: 22px;
 	height: 22px;
     display: none;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 .services_link h4 {
     width: 94%;
