@@ -349,14 +349,13 @@ body{
     margin-bottom: 20px;
 }
 .services_para p{
-    width: 90%;
     font-size: 14px;
     line-height: 24px;
     font-weight: normal;
     color: #a9a0b1;
 }
 .services_lef {
-    width: 70%;
+    width: 64%;
     overflow: hidden;
 }
 .services_rig{
